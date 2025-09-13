@@ -86,10 +86,11 @@ Get it here: [CHICKEN Scheme](https://call-cc.org/)
 - Chicken Scheme version 5.4.0  
 - Platform: `macosx-unix-clang-arm64`  
 
-> Note: The project has been verified on this setup; other platforms may work but are untested.
+
+> **Note:** The project has been verified only on this setup; other platforms are untested.
 
 
-The other methods are than macOS are only possibilities for those platforms.
+The other methods than macOS are only possibilities for those platforms.
 We have not tested those.
 
 
