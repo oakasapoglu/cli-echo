@@ -68,21 +68,15 @@ sys	0m0.060s
 ```
 
 
-
-
 | Iterations | Chicken Scheme real | System echo real | System beats Chicken |
 |------------|---------------------|------------------|----------------------|
 | 1000       | 4.910 s             | 0.029 s          | \~169×               |
 | 4000       | 19.504 s            | 0.109 s          | \~179×               |
 
-| Iterations | Chicken Scheme (real) | System echo (real) | System Advantage |
-|-----------:|----------------------:|-------------------:|-----------------:|
-|      1,000 |               4.910 s |            0.029 s |           \~169× |
-|      4,000 |              19.504 s |            0.109 s |           \~179× |
-
 So, our Chicken Scheme CLI echo is ~170× slower than the system echo.
 
 ## **Installation**
+
 ### Chicken Scheme
 
 Get it here: [CHICKEN Scheme](https://call-cc.org/)
