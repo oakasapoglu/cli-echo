@@ -21,7 +21,7 @@ all: $(TARGET)
 # Compile the Chicken Scheme source: produce .c and executable
 $(TARGET): $(SRC)
 	$(CSC) -k $(SRC) -o $(TARGET)
-	rm -f $(TARGET) *.o
+	rm -f *.o
 
 # Clean generated files
 clean:
