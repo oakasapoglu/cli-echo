@@ -18,9 +18,10 @@ BOOLEAN_TEST = run-tests.sh
 # Default target: build
 all: $(TARGET)
 
-# Compile the Chicken Scheme source, produce .c and executable
+# Compile the Chicken Scheme source: produce .c and executable
 $(TARGET): $(SRC)
 	$(CSC) -k $(SRC) -o $(TARGET)
+	rm -f $(TARGET) *.o
 
 # Clean generated files
 clean:
